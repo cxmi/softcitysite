@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #070818;
+  color: #eaeaff;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.parallax-title {
+  position: relative;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.hero-overlay {
+  text-align: center;
+  /* background: rgba(10, 10, 30, 0.55); */
+  padding: 40px;
+  border-radius: 12px;
+  /* backdrop-filter: blur(10px); */
+}
+
+.hero h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+  color: #b7a6ff;
+  text-shadow: 0 0 25px rgba(124, 92, 255, 0.6);
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #c9b6ff; /* soft neon purple */
+  text-align: center;
+
+  margin: 60px 0 30px;
+
+  text-shadow: 0 0 10px rgba(124, 92, 255, 0.4),
+               0 0 25px rgba(80, 140, 255, 0.2);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: linear-gradient(90deg, #7c5cff, #00d4ff);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* SECTION */
+.section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* FEATURE BLOCKS */
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature img {
+  width: 55%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(124, 92, 255, 0.25);
+}
+
+.feature div {
+  width: 45%;
+}
+
+/* FULL WIDTH BANNER */
+.full-banner {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  background: rgba(0,0,0,0.5);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+/* VIDEO */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #0b0f2a, #070818);
+}
+
+.game-title-logo {
+  max-width: 700px;
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  filter: drop-shadow(0 0 25px rgba(124, 92, 255, 0.65));
+
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* optional depth hint for smoother motion */
+.hero-overlay {
+  transform: translateZ(0);
+  will-change: transform;
+}
