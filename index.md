@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: The Morning After
 ---
 
 Welcome to my site.
