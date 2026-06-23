@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title | default: "Soft City" }}</title>
+
+  <!-- Serif + engraved feel -->
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header">
+      <!-- <div class="stamp">subhead</div> -->
+
+      <h1 class="title">
+        {{ site.title | default: "Soft City" }}
+      </h1>
+
+      <div class="subtitle">
+        an indie game studio
+      </div>
+    </header>
+
+    <main class="content">
+      {{ content }} 
+    </main>
+
+    <footer class="footer">
+      <p>copyright {{ site.time | date: "%Y" }} soft city games llc</p>
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,83 +1,46 @@
 ---
-layout: null
-title: The Morning After
+layout: default
+title: Soft City
 ---
 
+<section class="block">
+  <h2>what we're working on</h2>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <div class="cards">
 
-<div class="hero" style="background-image: url('assets/img/LibraryHero.png');">
-  <div class="hero-overlay">
-    <!--<h1>The Morning After</h1>-->
-        <div class="parallax-title">
-            <img src="assets/img/SteamLogo.png" alt="The Morning After" class="game-title-logo">
-        </div>
-    <h2>A makeout mystery you'll be thirsting to solve!</h2>
-    <a class="btn" href="#trailer">Watch Trailer</a>
-  </div>
-</div>
+    <a class="card" href="https://yourgame1.com" target="_blank">
+      <img src="/assets/img/whisper-hollow.jpg" alt="Whisper Hollow">
+      <div class="card-content">
+        <h3>WHISPER HOLLOW</h3>
+        <p>
+          Survey log of acoustic absence within an abandoned settlement.
+        </p>
+      </div>
+    </a>
 
-<section class="section">
 
-  <div class="feature">
-    <img src="assets/img/bg.png">
-    <div>
-      <h2>Reality Deformation</h2>
-      <p>Environments shift as memory collapses. No two paths are identical.</p>
-    </div>
-  </div>
 
-  <div class="feature reverse">
-    <img src="assets/img/bg.png">
-    <div>
-      <h2>Fragmented Exploration</h2>
-      <p>Navigate layered spaces built from corrupted recollections.</p>
-    </div>
-  </div>
-
-  <div class="feature">
-    <img src="assets/img/bg.png">
-    <div>
-      <h2>Signal-Based Storytelling</h2>
-      <p>Discover narrative through visual echoes and environmental traces.</p>
-    </div>
-  </div>
-
-</section>
-
-<section class="full-banner" style="background-image: url('assets/img/bg.png');">
-  <div class="banner-text">
-    <h2>Every frame hides a clue.</h2>
   </div>
 </section>
 
-<section class="section" id="trailer">
+<section class="block">
+  <h2>etc</h2>
 
-  <h2>Gameplay</h2>
+  <p class="note">
+    We construct interactive systems that behave like documents:
+    fragmented, unreliable, and subject to interpretation.
+  </p>
 
-  <div class="video-wrapper">
-    <iframe 
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+  <p class="note">
+    Influences include maritime logs, forensic reports, and pre-digital classification systems.
+  </p>
+</section>
+
+<section class="block">
+  <h2>contact us</h2>
+
+  <div class="entry">
+    <div class="entry-title">DIRECT INQUIRY</div>
+    <div class="entry-desc">contact@yourstudio.com</div>
   </div>
-
 </section>
-
-<section class="cta">
-  <h2>Enter the Depths</h2>
-  <a class="btn" href="#">Download Demo</a>
-</section>
-
-<script>
-window.addEventListener("scroll", () => {
-  const logo = document.querySelector(".game-title-logo");
-  const scrollY = window.scrollY;
-
-  // slower movement = more depth
-  const offset = scrollY * 0.25;
-
-  logo.style.transform = `translateY(${offset}px)`;
-});
-</script>
