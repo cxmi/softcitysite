@@ -3,7 +3,8 @@ description: An indie game studio
 # baseurl: "/softcitysite"
 baseurl: ""
 
-url: "https://cxmi.github.io"
+# url: "https://cxmi.github.io"
+url: https://softcitygames.com"
 
 # If your repo is username.github.io leave baseurl as ""
 # If your repo is username.github.io/reponame set baseurl: "/reponame"
