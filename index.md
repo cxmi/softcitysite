@@ -66,6 +66,6 @@ title: Soft City
 
   
   <p>
-  chrxmi [at] gmail
+  softcitygames [at] gmail [dot] com
   </p>
 </section>
